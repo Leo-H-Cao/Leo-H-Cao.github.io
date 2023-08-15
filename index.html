@@ -36,7 +36,7 @@
       <section id="banner">
         <div class="inner">
           <a href="#" class="image"
-            ><img src="images/profpic.jpg" width="280" height="auto" alt=""
+            ><img src="images/profpic2.jpg" width="400" height="auto" alt=""
           /></a>
           <h2>Hi, my name is Leo Cao</h2>
           <p>I love building things, cooking, basketball, and the outdoors.</p>
@@ -59,6 +59,46 @@
         <!-- One -->
         <section id="one" class="wrapper spotlight style1">
           <div class="inner">
+            <a href="#" class="image"><img src="images/aws.png" alt="" /></a>
+            <div class="content">
+              <h2 class="major">Amazon Web Services</h2>
+              <p>
+                As part of the internal AWS permissions team, I created a state
+                tracking system to ensure access group changes on frontend are
+                successfully synced to downstream AuthZ providers, and display
+                sync times to customers on UI.
+                <br />
+                <br />
+                I implemented a state-logging library to be ingested by group
+                syncing services, onboarded existing services to AWS CloudWatch
+                agent to pull state logs, and created a Lambda function along
+                with other CDK infrastructure needed to process incoming logs
+                and persist data to DynamoDB. This reduced customer tickets by
+                5.8% since the system eliminated a common confusion regarding
+                when group membership changes are propagated and provided
+                developers with increased transparency+alarms for failed syncs.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="two" class="wrapper alt spotlight style2">
+          <div class="inner">
+            <a href="#" class="image"
+              ><img src="images/security.png" alt=""
+            /></a>
+            <div class="content">
+              <h2 class="major">Xalyo Communications</h2>
+              <p align="left">
+                I connected Xalyocom's backend alarms to a cybersecurity
+                provider’s notifications by creating AWS Lambda that
+                process+exfiltrate the events to GCP Pub/Sub, and designing the
+                GCP Pub/Sub infrastructure.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="three" class="wrapper spotlight style1">
+          <div class="inner">
             <a href="#" class="image"><img src="images/halo.png" alt="" /></a>
             <div class="content">
               <h2 class="major">Amazon</h2>
@@ -76,14 +116,14 @@
         </section>
 
         <!-- Two -->
-        <section id="two" class="wrapper alt spotlight style2">
+        <section id="four" class="wrapper alt spotlight style2">
           <div class="inner">
             <a href="#" class="image"
               ><img src="images/superworld.jpeg" alt=""
             /></a>
             <div class="content">
               <h2 class="major">SuperWorld</h2>
-              <p>
+              <p align="left">
                 During this summer I implemented new layer for virtual real
                 estate map (desktop and mobile) that displays augmented reality
                 artwork; the feature was showcased at the Flint Water Festival
@@ -100,7 +140,7 @@
         </section>
 
         <!-- Three -->
-        <section id="three" class="wrapper spotlight style3">
+        <section id="five" class="wrapper spotlight style3">
           <div class="inner">
             <a href="#" class="image"><img src="images/daml.png" alt="" /></a>
             <div class="content">
@@ -116,7 +156,7 @@
         </section>
 
         <!-- Four -->
-        <section id="four" class="wrapper alt style1">
+        <section id="six" class="wrapper alt style1">
           <div class="inner">
             <h2 class="major">Some things I've built</h2>
             <section class="features">
